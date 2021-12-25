@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:  sans-serif;
+}
+
+.container{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    margin-bottom: 20px;
+}
+h5{
+    margin-top: 30px;
+}
+p{
+    font-size: 18px;
+    margin-bottom: 40px;
+    line-height: 150%;
+    color: #666;
+}
+a {
+    text-decoration: none;
+    color: #006097;
+    font-weight: bold;
+}
+    
+
+.logo{
+    text-indent: -200px;
+}
+form div{
+    margin-bottom: 15px;
+}
+form div label{
+    font-size: 16px;
+     float: left;
+   
+} 
+form div input{
+    width: 100%;
+    padding: 15px 10px 10px 10px;
+    border: 1px solid #006097;
+}
+
+.button{
+    margin-top: 25px;
+    background: #006097;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 20px; 
+    cursor: pointer;
+
+}
+a.buttonForFB{
+    border: 1px solid #006097;
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+    margin: 30px 0 30px 0;
+}

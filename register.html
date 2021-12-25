@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkDin</title>
+    <link rel="stylesheet" href="css/regstyle.css">
+</head>
+<body>
+   <div class="container">
+    
+        <div class="logo">
+            <img src="img/link-logo.png">
+        </div>
+        <h1>You can register here</h1>
+        <p>Do not miss your next opportunity. Sign in to stay updated on your professional world.</p>
+        <form action="register.php" method="post" autocomplete="off">
+        <div>
+            <label for="firstname" class="firstName" id="firstName">First name</label>
+            <input type="text" name="firstname" id="firstname">
+        </div>
+        <div>
+            <label for="lastname">Last name</label>
+            <input type="text" name="lastName" id="lastName">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="password">Password (6 or more characters)</label>
+            <input type="password" name="password" id="regpassword">
+        </div>
+
+        You aggree to the Linkdin <a href="#">User Agreement. Privacy Policy and Cookie policy.</a>
+        
+        <div>
+            <input type="submit" class="button" value="Agree & Join">
+        </div>
+        <h5>Or</h5>
+
+        <div>
+            <a href="#" class="buttonForFB">Continue with Facebook</a>
+        </div>
+
+    </form>
+    
+
+
+   </div><!-- .container -->
+   <div class="blank"></div>
+
+   <script src="js/script.js"></script>
+   
+</body>
+</html>
